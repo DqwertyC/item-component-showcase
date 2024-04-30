@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "minecraft:netherite_pickaxe"
+    },
+    "template": {
+        "item": "minecraft:echo_shard"
+    },
+    "addition": {
+        "item": "minecraft:stone"
+    },
+    "result": {
+        "id": "minecraft:netherite_pickaxe",
+        "components": {
+            "minecraft:custom_data": {
+                "attunable": true
+            },
+            "minecraft:lore": [
+                "[{\"text\": \"Attuned: \", \"italic\": false, \"color\":\"dark_aqua\"},{\"translate\": \"block.minecraft.stone\", \"italic\": false, \"color\":\"dark_aqua\"}]"
+            ],
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:tool": {
+                "default_mining_speed": 1,
+                "damage_per_block": 1,
+                "rules": [
+                    {
+                        "blocks": "minecraft:stone",
+                        "speed": 32,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/pickaxe",
+                        "speed": 1,
+                        "correct_for_drops": true
+                    }
+                ]
+            },
+            "minecraft:rarity":"rare"
+        }
+    }
+}

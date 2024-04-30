@@ -1,0 +1,1 @@
+give @s blaze_rod[minecraft:custom_data={fire_staff:true},minecraft:custom_name='{"text": "Fireball Staff", "italic": false}',minecraft:food={nutrition:0,saturation:0,can_always_eat:true,eat_seconds:2147483647},minecraft:fire_resistant={},minecraft:max_damage=8]

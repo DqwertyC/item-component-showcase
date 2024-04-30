@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "function": "fireball_staff:reward/tick"
+    }
+}

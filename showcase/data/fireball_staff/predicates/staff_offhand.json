@@ -1,0 +1,36 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "offhand": {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "fire_staff": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "offhand": {
+                            "components": {
+                                "minecraft:damage": 16
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "FFF",
+        "FRF",
+        "FFF"
+    ],
+    "key": {
+        "F": {
+            "item": "minecraft:gold_nugget"
+        },
+        "R": {
+            "item": "minecraft:cooked_chicken"
+        }
+    },
+    "result": {
+        "id": "minecraft:gold_nugget",
+        "components": {
+            "minecraft:custom_name": "{\"text\": \"Chicken Nugget\", \"italic\": false}",
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1,
+                "eat_seconds": 0.25
+            }
+        },
+        "count": 8
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "minecraft:netherite_shovel"
+    },
+    "template": {
+        "item": "minecraft:echo_shard"
+    },
+    "addition": {
+        "item": "minecraft:gravel"
+    },
+    "result": {
+        "id": "minecraft:netherite_shovel",
+        "components": {
+            "minecraft:custom_data": {
+                "attunable": true
+            },
+            "minecraft:lore": [
+                "[{\"text\": \"Attuned: \", \"italic\": false, \"color\":\"dark_aqua\"},{\"translate\": \"block.minecraft.gravel\", \"italic\": false, \"color\":\"dark_aqua\"}]"
+            ],
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:tool": {
+                "default_mining_speed": 1,
+                "damage_per_block": 1,
+                "rules": [
+                    {
+                        "blocks": "minecraft:gravel",
+                        "speed": 32,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "#mineable/shovel",
+                        "speed": 1,
+                        "correct_for_drops": true
+                    }
+                ]
+            },
+            "minecraft:rarity":"rare"
+        }
+    }
+}

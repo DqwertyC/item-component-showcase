@@ -1,0 +1,1 @@
+$execute positioned 0.0 0.0 0.0 rotated as @s positioned ^ ^ ^$(dist) run summon minecraft:marker ~ ~ ~ {Tags:["fireball"]}

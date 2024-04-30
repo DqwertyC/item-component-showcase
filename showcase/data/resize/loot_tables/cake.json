@@ -1,0 +1,48 @@
+{
+    "type":"entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cake"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "minecraft:custom_data": {
+                            "grow": true
+                        },
+                        "minecraft:custom_name": "{\"text\": \"Eat Me\", \"italic\": false}",
+                        "minecraft:attribute_modifiers": {
+                            "show_in_tooltip": false,
+                            "modifiers": [
+                                {
+                                    "type": "minecraft:player.block_interaction_range",
+                                    "slot": "hand",
+                                    "uuid": [
+                                        4,
+                                        17,
+                                        3,
+                                        0
+                                    ],
+                                    "name": "noplace",
+                                    "amount": -64,
+                                    "operation": "add_value"
+                                }
+                            ]
+                        },
+                        "minecraft:food": {
+                            "nutrition": 0,
+                            "saturation": 0,
+                            "can_always_eat": true
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

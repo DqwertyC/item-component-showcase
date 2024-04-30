@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "using_staff": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "components": {
+              "minecraft:custom_data": {
+                "fire_staff": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "fireball_staff:reward/using"
+    }
+  }

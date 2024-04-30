@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:cured_zombie_villager",
+            "conditions": {
+                "villager": {
+                    "location": {
+                        "structure": "minecraft:igloo"
+                    },
+                    "nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:plains\"}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+      "function": "resize:reward/cure"
+    }
+}

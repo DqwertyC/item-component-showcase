@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "components": {
+              "minecraft:custom_data": {
+                "grow": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "resize:reward/grow"
+    }
+  }
