@@ -25,7 +25,7 @@
                 "rules": [
                     {
                         "blocks": "minecraft:dirt",
-                        "speed": 32,
+                        "speed": 40,
                         "correct_for_drops": true
                     },
                     {

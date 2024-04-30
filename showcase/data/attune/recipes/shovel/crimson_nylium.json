@@ -25,7 +25,7 @@
                 "rules": [
                     {
                         "blocks": "minecraft:crimson_nylium",
-                        "speed": 32,
+                        "speed": 40,
                         "correct_for_drops": true
                     },
                     {
